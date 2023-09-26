@@ -38,7 +38,7 @@ As we can see, we need to install some packages.
   **Todo:** Add this at the end of the file. 📝
   
       `deb http://security.ubuntu.com/ubuntu xenial-security main`
-  <img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-46-10.png" alt="Todo" width="800" height="200">
+  <img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-46-10.png" alt="Todo" width="1000" height="100">
 
 - Update the package list 🔄
 
