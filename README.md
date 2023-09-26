@@ -12,7 +12,7 @@ Commands used: `cd`, `ls`, `cat`, `less`, `apt`, `vim`, `strings`
 
 **2. Change to the folder**
 
-   $ cd 0x06.c
+      $ cd 0x06.c
 
 **3. List the contents of the folder**
 
