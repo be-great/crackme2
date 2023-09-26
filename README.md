@@ -47,36 +47,25 @@ As we can see, we need to install some packages.
 **6. View the normal output**
 <img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-56-06.png" alt="View Output" width="300" height="200">
 
-7. Inspect the contents of the executable file
+**7. Inspect the contents of the executable file**
 
-![Alt Text](https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-57-18.png)
+<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-57-18.png" alt="Inspect Executable" width="300" height="200">
 
 **Note:** We notice some readable text formats.
 
- ![Alt Text](https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-57-1.png)
+<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-57-1.png" alt="Note" width="300" height="200">
 
-8. We notice some readable text formats. To see it more clearly, we can use the `strings` command.
+**8. We notice some readable text formats. To see it more clearly, we can use the `strings` command.**
 
-![Alt Text](https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2018-49-48.png)
+<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2018-49-48.png" alt="Strings Command" width="300" height="200">
 
 **Note:** We notice some hash values.
 
-![Alt Text](https://github.com/be-great/crackme2/blob/main/crackme2_images/the_hash)
+<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/the_hash" alt="Hash Values" width="300" height="200">
 
-9. If it's a hash, we can attempt to brute force it with common passwords. You can find websites that offer this service.
+**9. If it's a hash, we can attempt to brute-force it with common passwords. You can find websites that offer this service.**
+<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2018-00-00.png" alt="Hash Values" width="300" height="200">
 
-![Alt Text](https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2018-00-00.png)
+**10. Crack it**
+<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/crackit" alt="Hash Values" width="300" height="200">
 
-10. Crack it
-
- ![Alt Text](https://github.com/be-great/crackme2/blob/main/crackme2_images/crackit)
-
-Happy hacking, fearless codebreakers! 🏴‍☠️
-
-*Disclaimer: This repository will not self-destruct. But the secrets you uncover within just might.*
-
-    
-
-Happy hacking, fearless codebreakers! 🏴‍☠️
-
-*Disclaimer: This repository will not self-destruct. But the secrets you uncover within just might.*
