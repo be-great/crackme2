@@ -93,7 +93,7 @@ As we can see, we need to install some packages.
 
       $ export jennieandjayloveasm="whatever"
       $ ltrace ./crackme2
-<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2022-42-06.png" alt="Install Package" width="500" height="500">
+<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2022-42-06.png" alt="Install Package" width="800" height="500">
       
 **Explain:  we notice at the end there are two hashes strncmp(str1,str2)<br>
                  `str1` hash of : is the same as what we found previously "thepassword"<br>
@@ -103,7 +103,7 @@ As we can see, we need to install some packages.
 
       $ export jennieandjayloveasm="abc***"
       $ ./crackme2
-<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2022-48-35.png" alt="Install Package" width="500" height="200">
+<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2022-48-35.png" alt="Install Package" width="500" height="100">
 
 **note. Create the file with the password, no new line, and no extra space**
 
