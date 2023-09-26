@@ -65,7 +65,7 @@ As we can see, we need to install some packages.
 
 **8. We notice some readable text formats. To see it more clearly, we can use the `strings` command.**
 
-      $ strings
+      $ strings crackme2
 <img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2018-49-48.png" alt="Strings Command" width="800" height="200">
 
 **Note:** We notice some hash values.
