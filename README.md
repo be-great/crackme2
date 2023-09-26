@@ -80,16 +80,16 @@ As we can see, we need to install some packages.
 **11. How to pass the password to the file "we have to know what the execute file looking for**
       
       $ ltrace ./crackme2
-<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2022-28-14.png" alt="Install Package" width="800" height="200">
+<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2022-28-14.png" alt="Install Package" width="500" height="200">
 **Explain:**  
-            + First line "__libc_start_main"     : it's a function that setup the program environment. which means the file is looking for specific environment name 
-            + Second line  "strncmp(str1,str2,n)": which means it compares a given number of characters of two strings.
-            + other lines                        : we see strncmp repeated with a string called `jennieandjayloveasm=`
-            **Conculation** : we are looking for the environment variable `jennieandjayloveasm`
-**12. trying to set that environment variable to anything**
+            + First line "__libc_start_main"     : it's a function that setup the program environment. which means the file is looking for specific environment name<br> 
+            + Second line  "strncmp(str1,str2,n)": which means it compares a given number of characters of two strings.<br>
+            + other lines                        : we see strncmp repeated with a string called `jennieandjayloveasm=`<br>
+            **Conculation** : we are looking for the environment variable `jennieandjayloveasm`<br>
+**12. trying to set that environment variable to anything**<br>
       $ export jennieandjayloveasm="whatever"
       $ ltrace ./crackme2
-<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2022-42-06.png" alt="Install Package" width="800" height="200">
+<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2022-42-06.png" alt="Install Package" width="500" height="200">
       **Explain:  we notice at the end there are two hashes strncmp(str1,str2)<br>
                  `str1` hash : is the same as what we found previously "thepassword"<br>
                  `str2` hash : "whatever" the value of `jennieandjayloveasm`**
@@ -97,7 +97,7 @@ As we can see, we need to install some packages.
 
       $ export jennieandjayloveasm="abc***"
       $ ./crackme2
-<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2022-48-35.png" alt="Install Package" width="800" height="200">
+<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2022-48-35.png" alt="Install Package" width="500" height="200">
 **note. Create the file with the password, no new line, and no extra space**
 
       $ printf "the_password" > filename
