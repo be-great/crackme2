@@ -1,10 +1,10 @@
-# Crackme2: Unmask the Password Adventure 🕵️‍♂️🔓
+![image](https://github.com/be-great/crackme2/assets/78013422/628d1e17-0bfc-457f-bbdf-5225a0305504)# Crackme2: Unmask the Password Adventure 🕵️‍♂️🔓
 
 The challenge: [Crackme2 Repository](https://github.com/alx-tools/0x06.c) 🏴‍☠️
 
-Commands used: `cd`, `ls`, `cat`, `less`, `apt`, `vim`, `strings`
+Commands used: `cd`, `ls`, `cat`, `less`, `apt`, `vim`, `strings`, `ltrace`, `export`
 
-## Steps:
+## Steps:e99a18c428cb38d5f260853678922e03
 
 **1. Clone the repository**
 
@@ -66,7 +66,6 @@ As we can see, we need to install some packages.
 
 **8. We notice some readable text formats. To see it more clearly, we can use the `strings` command.**
 
-      $ strings crackme2
 <img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2018-49-48.png" alt="Strings Command" width="800" height="200">
 
 **Note:** We notice some hash values.
@@ -78,9 +77,28 @@ As we can see, we need to install some packages.
 
 **10. Crack it**
 <img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/crackit" alt="Hash Values" width="1300" height="600">
+**11. How to pass the password to the file "we have to know what the execute file looking for**
+      
+      $ ltrace ./crackme2
+<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2022-28-14.png" alt="Install Package" width="800" height="200">
+**Explain:**  
+            + First line "__libc_start_main"     : it's a function that setup the program environment. which means the file is looking for specific environment name 
+            + Second line  "strncmp(str1,str2,n)": which means it compares a given number of characters of two strings.
+            + other lines                        : we see strncmp repeated with a string called `jennieandjayloveasm=`
+            **Conculation** : we are looking for the environment variable `jennieandjayloveasm`
+**12. trying to set that environment variable to anything**
+      $ export jennieandjayloveasm="whatever"
+      $ ltrace ./crackme2
+<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2022-42-06.png" alt="Install Package" width="800" height="200">
+      **Explain:  we notice at the end there are two hashes strncmp(str1,str2)<br>
+                 `str1` hash : is the same as what we found previously "thepassword"<br>
+                 `str2` hash : "whatever" the value of `jennieandjayloveasm`**
+**13. set the environment variable to the password**
 
-**11. Create the file with the password, no new line, and no extra space**
+      $ export jennieandjayloveasm="abc***"
+      $ ./crackme2
+<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2022-48-35.png" alt="Install Package" width="800" height="200">
+**note. Create the file with the password, no new line, and no extra space**
 
       $ printf "the_password" > filename
-      
-**Note : Using normal editor will automatic create new line at the end , if we created it with `printf` the will be No newline**
+Using a normal editor will automatically create a new line at the end , if we created it with `printf` the will be No newline
