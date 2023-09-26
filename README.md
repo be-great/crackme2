@@ -29,8 +29,13 @@ The chanllage : https://github.com/alx-tools/0x06.c 🏴‍☠️
    note : we notice some readable texts formats
    ![ALT Text](https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-57-1.png)
 8) we notice some readable text formats to see it more clear we can you the command "strings"
-   ![ALT Text](https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-57-18.png)
-   
+   ![ALT Text](https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2018-49-48.png)
+   note : we notice some hash on it
+   ![ALT Text](https://github.com/be-great/crackme2/blob/main/crackme2_images/the_hash)
+9) If it's a hash we can brute force it with common password . we can google some website that do that
+    ![ALT Text](https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2018-00-00.png)
+10) Crack it
+    ![ALT Text](https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2018-00-00.png)
     
 Welcome aboard to the most exhilarating challenge of your hacking career. If you've been drawn to the mysterious allure of cracking passwords, you're in for a treat! Crackme2 beckons you to embark on a quest that promises intellectual curiosity, excitement, and a dash of seductive adventure.
 
