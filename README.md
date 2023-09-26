@@ -3,6 +3,7 @@
 ![Crackme2 Logo](crackme2_logo.png)
 
 The chanllage : https://github.com/alx-tools/0x06.c 🏴‍☠️
+commands used : cd , ls , cat ,less , apt , vim , strings
 
 # steps :-
 1) clone the repository
