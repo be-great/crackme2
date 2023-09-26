@@ -23,7 +23,7 @@ Commands used: `cd`, `ls`, `cat`, `less`, `apt`, `vim`, `strings`
 
 **4. Execute the program**
 
-<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-26-18.png" alt="Execute Program" width="800" height="200">
+<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-26-18.png" alt="Execute Program" width="1000" height="100">
 
 As we can see, we need to install some packages.
 
