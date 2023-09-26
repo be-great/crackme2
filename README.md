@@ -77,3 +77,9 @@ As we can see, we need to install some packages.
 
 **10. Crack it**
 <img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/crackit" alt="Hash Values" width="1300" height="600">
+
+**11. Create the file with the password, no new line, and no extra space**
+
+      $ printf "the_password" > filename
+      
+**Note : Using normal editor will automatic create new line at the end , if we created it with `printf` the will be No newline***
