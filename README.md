@@ -1,4 +1,4 @@
-![image](https://github.com/be-great/crackme2/assets/78013422/628d1e17-0bfc-457f-bbdf-5225a0305504)# Crackme2: Unmask the Password Adventure 🕵️‍♂️🔓
+# Crackme2: Unmask the Password Adventure 🕵️‍♂️🔓
 
 The challenge: [Crackme2 Repository](https://github.com/alx-tools/0x06.c) 🏴‍☠️
 
