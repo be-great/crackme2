@@ -14,6 +14,7 @@ Commands used: `cd`, `ls`, `cat`, `less`, `apt`, `vim`, `strings`
 
       $ cd 0x06.c
 
+
 **3. List the contents of the folder**
 
 <img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-25-55.png" alt="List Contents" width="800" height="200">
@@ -24,25 +25,26 @@ Commands used: `cd`, `ls`, `cat`, `less`, `apt`, `vim`, `strings`
 
 As we can see, we need to install some packages.
 
-**5. Install necessary packages**
+**5. Install necessary packages** 📦
 
 - Add the resource to the apt sources
 
   <img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2018-25-46.png" alt="Add Resource" width="800" height="200">
 
-  **Todo:** Add this at the end of the file.
+  **Todo:** Add this at the end of the file. 📝
 
   <img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-46-10.png" alt="Todo" width="800" height="200">
 
-- Update the package list
+- Update the package list 🔄
 
   <img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2018-36-16.png" alt="Update Package List" width="800" height="200">
 
-- Install the necessary package
+- Install the necessary package ⚙️
 
   <img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2018-36-24.png" alt="Install Package" width="800" height="200">
 
-**6. View the normal output**
+**6. View the normal output** 👀
+
 <img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-56-06.png" alt="View Output" width="800" height="200">
 
 **7. Inspect the contents of the executable file**
@@ -66,4 +68,3 @@ As we can see, we need to install some packages.
 
 **10. Crack it**
 <img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/crackit" alt="Hash Values" width="1300" height="600">
-
