@@ -4,7 +4,7 @@ The challenge: [Crackme2 Repository](https://github.com/alx-tools/0x06.c) 🏴�
 
 Commands used: `cd`, `ls`, `cat`, `less`, `apt`, `vim`, `strings`, `ltrace`, `export`
 
-## Steps:e99a18c428cb38d5f260853678922e03
+## Steps:
 
 **1. Clone the repository**
 
@@ -85,7 +85,7 @@ As we can see, we need to install some packages.
 **Explain 🥸:** 
 + **First line "__libc_start_main"**     : it's a function that set the program environment. which means the file is looking for a specific environment name
 + **Second line  "strncmp(str1,str2,n)"**: which means it compares a given number of characters of two strings.
-+ **other lines**                        : we see strncmp repeated with a string called `jennieandjayloveasm`
++ **Other lines**                        : we see strncmp repeated with a string called `jennieandjayloveasm`
   
 **Conculation** : we are looking for the environment variable `jennieandjayloveasm`.
 
