@@ -81,11 +81,12 @@ As we can see, we need to install some packages.
       
       $ ltrace ./crackme2
 <img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2022-28-14.png" alt="Install Package" width="500" height="200">
-**Explain:**  
+
+**Explain:** 
             + First line "__libc_start_main"     : it's a function that setup the program environment. which means the file is looking for specific environment name<br> 
             + Second line  "strncmp(str1,str2,n)": which means it compares a given number of characters of two strings.<br>
             + other lines                        : we see strncmp repeated with a string called `jennieandjayloveasm=`<br>
-            **Conculation** : we are looking for the environment variable `jennieandjayloveasm`<br>
+            **Conculation** : we are looking for the environment variable `jennieandjayloveasm`.
 **12. trying to set that environment variable to anything**<br>
       $ export jennieandjayloveasm="whatever"
       $ ltrace ./crackme2
@@ -98,7 +99,9 @@ As we can see, we need to install some packages.
       $ export jennieandjayloveasm="abc***"
       $ ./crackme2
 <img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2022-48-35.png" alt="Install Package" width="500" height="200">
+
 **note. Create the file with the password, no new line, and no extra space**
 
       $ printf "the_password" > filename
+      
 Using a normal editor will automatically create a new line at the end , if we created it with `printf` the will be No newline
