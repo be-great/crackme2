@@ -82,4 +82,4 @@ As we can see, we need to install some packages.
 
       $ printf "the_password" > filename
       
-**Note : Using normal editor will automatic create new line at the end , if we created it with `printf` the will be No newline***
+**Note : Using normal editor will automatic create new line at the end , if we created it with `printf` the will be No newline**
