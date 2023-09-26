@@ -30,6 +30,7 @@ As we can see, we need to install some packages.
 **5. Install necessary packages** 📦
 
 - Add the resource to the apt sources
+  
       $ vim /etc/apt/sources.list
 
 
