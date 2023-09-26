@@ -70,7 +70,7 @@ As we can see, we need to install some packages.
 
 **Note:** We notice some hash values.
 
-<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/the_hash" alt="Hash Values" width="800" height="200">
+<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/the_hash" alt="Hash Values" width="500" height="200">
 
 **9. If it's a hash, we can attempt to brute-force it with common passwords. You can find websites that offer this service.**
 <img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-59-03.png" alt="Hash Values" width="1300" height="600">
