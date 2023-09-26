@@ -20,7 +20,7 @@ Commands used: `cd`, `ls`, `cat`, `less`, `apt`, `vim`, `strings`
 
 **4. Execute the program**
 
-<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-26-18.png" alt="Execute Program" width="300" height="800">
+<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-26-18.png" alt="Execute Program" width="800" height="200">
 
 As we can see, we need to install some packages.
 
@@ -32,7 +32,7 @@ As we can see, we need to install some packages.
 
   **Todo:** Add this at the end of the file.
 
-  <img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-46-10.png" alt="Todo" width="300" height="800">
+  <img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-46-10.png" alt="Todo" width="800" height="200">
 
 - Update the package list
 
@@ -43,7 +43,7 @@ As we can see, we need to install some packages.
   <img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2018-36-24.png" alt="Install Package" width="800" height="200">
 
 **6. View the normal output**
-<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-56-06.png" alt="View Output" width="300" height="800">
+<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-56-06.png" alt="View Output" width="800" height="200">
 
 **7. Inspect the contents of the executable file**
 
@@ -62,8 +62,8 @@ As we can see, we need to install some packages.
 <img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/the_hash" alt="Hash Values" width="800" height="200">
 
 **9. If it's a hash, we can attempt to brute-force it with common passwords. You can find websites that offer this service.**
-<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-59-03.png" alt="Hash Values" width="1300" height="200">
+<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-59-03.png" alt="Hash Values" width="1300" height="600">
 
 **10. Crack it**
-<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/crackit" alt="Hash Values" width="1300" height="200">
+<img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/crackit" alt="Hash Values" width="1300" height="600">
 
