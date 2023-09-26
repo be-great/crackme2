@@ -17,7 +17,8 @@ The chanllage : https://github.com/alx-tools/0x06.c 🏴‍☠️
 5) install necessery package
    + Add the resource in the apt resources
       ![ALT Text](https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2018-25-46.png)
-      Add this at the end of the file ![ALT Text](https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-46-10.png)
+      Todo : Add this at the end of the file
+     ![ALT Text](https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-46-10.png)
    + Update package list
      ![ALT Text](https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2018-36-16.png)
    + Install the nessecury package
@@ -35,7 +36,7 @@ The chanllage : https://github.com/alx-tools/0x06.c 🏴‍☠️
 9) If it's a hash we can brute force it with common password . we can google some website that do that
     ![ALT Text](https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2018-00-00.png)
 10) Crack it
-    ![ALT Text](https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2018-00-00.png)
+    ![ALT Text](https://github.com/be-great/crackme2/blob/main/crackme2_images/crackit)
     
 Welcome aboard to the most exhilarating challenge of your hacking career. If you've been drawn to the mysterious allure of cracking passwords, you're in for a treat! Crackme2 beckons you to embark on a quest that promises intellectual curiosity, excitement, and a dash of seductive adventure.
 
