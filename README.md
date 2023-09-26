@@ -54,7 +54,7 @@ As we can see, we need to install some packages.
 
 **Note:** We notice some readable text formats.
 
-![Alt Text](https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-57-1.png)
+ ![Alt Text](https://github.com/be-great/crackme2/blob/main/crackme2_images/Screenshot%20from%202023-09-26%2017-57-1.png)
 
 8. We notice some readable text formats. To see it more clearly, we can use the `strings` command.
 
