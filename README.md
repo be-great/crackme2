@@ -2,7 +2,11 @@
 
 ![Crackme2 Logo](crackme2_logo.png)
 
-Ahoy, fellow codebreakers and cyber adventurers! 🏴‍☠️
+The chanllage : https://github.com/alx-tools/0x06.c 🏴‍☠️
+
+# steps :-
+1) clone the repository
+    
 
 Welcome aboard to the most exhilarating challenge of your hacking career. If you've been drawn to the mysterious allure of cracking passwords, you're in for a treat! Crackme2 beckons you to embark on a quest that promises intellectual curiosity, excitement, and a dash of seductive adventure.
 
