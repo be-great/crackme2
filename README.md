@@ -78,6 +78,7 @@ As we can see, we need to install some packages.
 **10. Crack it**
 <img src="https://github.com/be-great/crackme2/blob/main/crackme2_images/crackit" alt="Hash Values" width="1300" height="600">
 **11. Cograts !:) But now How to pass the password to the file we have to know what the execute file looking for so we have to investigate it**
+
       Let's debug it using `ltrace` debugging which  is primarily used to trace calls made by programs to library functions.
       
       $ ltrace ./crackme2
